@@ -1,0 +1,82 @@
+$Author: Daher Alfawares $
+$Revision: 1.3 $
+$Date: 2004/09/12 04:24:38 $
+$Name:  $
+
+
+daherengine-1.23a
+-------------------
+- Loading screen no longer smooth in debug builds.
+- Music disabled in debug builds.
+- Intro screen disabled.
+- Fixed train not showing because of fadescreen bug.
+
+daherengine-1.22a
+-------------------
+- Keyword added to headers.
+
+daherengine-1.21a
+-------------------
+- Files re-organized...
+
+daherengine-1.20a
+-------------------
+- First added to cvs, previous history is irrelevent.
+
+daherengine-1.19a
+-------------------
+- UI menu bug fixed.
+- Camera interpolation changed to 2nd order interpolation.
+- DGL code converted into full OOP.
+- ParticleEngine.
+- Using static shadows for the terrain.
+- Changed texture envirnment combine for the terrain.
+- Converted into .NET project.
+- User can press ESC while loading to abort.
+- UI Pictures and Movies.
+
+daherengine-1.18a
+-------------------
+- Implemented some UI utilities.
+- DGL resizeing image to closest power of two.
+- DGL image fixed free data after building textures.
+- DGL image building now resizes images if they exceeds the max_texture_size.
+- Renamed variable r_terrainLowestDetail to r_terrainLOD.
+- Added Widescreen effect ( r_wideSceen )
+
+daherengine-1.17a
+-------------------
+- Fixed extensions load bug ( some of ATI extensions wasn't located correctly ).
+- added avi generation.
+- changed font creation type and moved to DGL.DLL
+
+daherengine-1.16a
+-------------------
+- using TRILINEAR texture filtering ( console variable 'gl_textureFilter' values 1-4 )
+- timedemo disabled.
+- scripts disabled.
+- new console feature: command history (press up/down)
+- cool fog underwater
+- perpective animation underwater.
+- game libraries are loaded dynamicly.
+- forced c-style library modules.
+- draw tools updated.
+
+daherengine-1.15a
+-------------------
+- using GL_NV_texgen_reflection.
+
+daherengine-1.14a
+-------------------
+- using mipmaps for the detail texture and the water.
+- swap control is used of 1 color swap per 1 video frame period.
+
+daherengine-1.13a
+-------------------
+- water reflecion.
+
+
+.
+.
+.
+.
