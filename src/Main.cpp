@@ -32,7 +32,6 @@ TODO List:
 #pragma comment( lib, "User32.lib")
 #pragma comment( lib, "OpenGL32.lib" )
 #pragma comment( lib, "GLu32.lib" )
-//#pragma comment( lib, "GLaux.lib" )
 #pragma comment( lib, "WinMM.lib" )
 #pragma comment( lib, "AdvAPI32.lib")
 #pragma comment( lib, "GDI32.lib")
