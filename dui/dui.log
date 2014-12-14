@@ -1,0 +1,100 @@
+﻿Build started 4/26/2010 8:18:43 AM.
+     1>Project "F:\xr\src\daherengine\dui\dui.vcxproj" on node 38 (build target(s)).
+     1>_PrepareForBuild:
+         Touching "../output/dui/Release\dui.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../output/dui/Release\\" /Fd"../output/dui/Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dui_basic_object.cpp dui_share_rect.cpp
+         dui_basic_object.cpp
+     1>f:\xr\src\daherengine\src\DGL_Texture.h(116): warning C4482: nonstandard extension used: enum 'DGL::Texture::Filter::FilterName' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Font3D.h(94): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>f:\xr\src\daherengine\src\DGL_FX.h(491): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>f:\xr\src\daherengine\src\DGL_TextImage.h(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(72) : see declaration of 'strcpy'
+     1>f:\xr\src\daherengine\src\DGL_Train.h(176): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\xr\src\daherengine\src\DGL_Train.h(196): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\xr\src\daherengine\src\DGL_Train.h(206): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(178): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(182): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(187): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(192): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(196): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(204): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(221): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(231): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(233): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(237): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(239): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(243): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(245): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(251): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(255): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(264): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Terrain.h(136): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\xr\src\daherengine\src\DGL_Skybox.h(37): warning C4482: nonstandard extension used: enum 'DGL::Texture::Filter::FilterName' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Skybox.h(158): warning C4482: nonstandard extension used: enum 'DGL::Texture::Filter::FilterName' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Skybox.h(269): warning C4482: nonstandard extension used: enum 'DGL::Texture::Filter::FilterName' used in qualified name
+     1>f:\xr\src\daherengine\dui\dui_basic_container.h(28): error C2242: typedef name cannot follow class/struct/union
+                 f:\xr\src\daherengine\dui\dui_basic_container.h(79) : see reference to class template instantiation 'dui::basic::container<element>' being compiled
+     1>f:\xr\src\daherengine\dui\dui_basic_container.h(28): error C2242: typedef name cannot follow class/struct/union
+                 f:\xr\src\daherengine\dui\dui_basic_window.h(28) : see reference to class template instantiation 'dui::basic::container<element>' being compiled
+                 with
+                 [
+                     element=dui::basic::object
+                 ]
+         dui_graphics.h: make this independednt
+         dui_share_rect.cpp
+     1>f:\xr\src\daherengine\src\DGL_Texture.h(116): warning C4482: nonstandard extension used: enum 'DGL::Texture::Filter::FilterName' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Font3D.h(94): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>f:\xr\src\daherengine\src\DGL_FX.h(491): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>f:\xr\src\daherengine\src\DGL_TextImage.h(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(72) : see declaration of 'strcpy'
+     1>f:\xr\src\daherengine\src\DGL_Train.h(176): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\xr\src\daherengine\src\DGL_Train.h(196): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\xr\src\daherengine\src\DGL_Train.h(206): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(178): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(182): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(187): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(192): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(196): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(204): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(221): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(231): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(233): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(237): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(239): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(243): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(245): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(251): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(255): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Shader.h(264): warning C4482: nonstandard extension used: enum 'DGL::Shader::Stage::Unit::Flags' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Terrain.h(136): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>f:\xr\src\daherengine\src\DGL_Skybox.h(37): warning C4482: nonstandard extension used: enum 'DGL::Texture::Filter::FilterName' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Skybox.h(158): warning C4482: nonstandard extension used: enum 'DGL::Texture::Filter::FilterName' used in qualified name
+     1>f:\xr\src\daherengine\src\DGL_Skybox.h(269): warning C4482: nonstandard extension used: enum 'DGL::Texture::Filter::FilterName' used in qualified name
+     1>f:\xr\src\daherengine\dui\dui_basic_container.h(28): error C2242: typedef name cannot follow class/struct/union
+                 f:\xr\src\daherengine\dui\dui_basic_container.h(79) : see reference to class template instantiation 'dui::basic::container<element>' being compiled
+     1>f:\xr\src\daherengine\dui\dui_basic_container.h(28): error C2242: typedef name cannot follow class/struct/union
+                 f:\xr\src\daherengine\dui\dui_basic_window.h(28) : see reference to class template instantiation 'dui::basic::container<element>' being compiled
+                 with
+                 [
+                     element=dui::basic::object
+                 ]
+         dui_graphics.h: make this independednt
+         Generating Code...
+     1>Done Building Project "F:\xr\src\daherengine\dui\dui.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.09
