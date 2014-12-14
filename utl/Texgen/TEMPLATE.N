@@ -1,0 +1,68 @@
+# ---
+# $parser:ntclserver$ $class:n3dnode$ $ver:Mon Aug 21 21:51:53 2000$
+# ---
+
+sel /sys/servers/input
+.beginmap
+.map keyb0:f11.down "script: /sys/servers/gfx.screenshot screen.bmp"
+.endmap
+
+
+sel /usr/scene/
+new n3dnode grid
+sel grid
+	.tz -150
+	.tx -50
+
+	new nflatterrainnode ter
+		sel ter
+		.setminlod 0.000000
+		.setdetail 100.000000
+		.setstaticerror 2.000000
+		.setradius 100
+		.setuvscale 0.01
+		.setheightmap "heightmap.bmp"
+	sel ..
+
+	new ntexarraynode tex
+		sel tex
+		.setminlod 0.000000
+		.settexture 0 "texture.bmp" "none"
+	sel ..
+
+    new nshadernode sn
+        sel sn
+        .setminlod 0.000000
+        .setrenderpri 0
+        .setnumstages 1
+        .setcolorop 0 "mul tex prev"
+        .setalphaop 0 "nop"
+        .setconst 0 0.000000 0.000000 0.000000 0.000000
+        .begintunit 0
+        .setaddress repeat repeat
+        .setminmagfilter "linear_mipmap_linear" "linear"
+        .settexcoordsrc "uv1"
+        .setenabletransform false
+        .txyz 0.000000 0.000000 0.000000
+        .rxyz 0.000000 0.000000 0.000000
+        .sxyz 1.000000 1.000000 1.000000
+        .endtunit
+
+        .setdiffuse 1.000000 1.000000 1.000000 1.000000
+        .setemissive 0.000000 0.000000 0.000000 0.000000
+        .setambient 1.000000 1.000000 1.000000 1.000000
+        .setlightenable true
+        .setalphaenable false
+        .setfogenable true
+        .setcullmode "cw"
+        .setcolormaterial "material"
+	sel ..
+
+sel /usr/scene/grid
+
+new nlightnode l
+
+sel /usr/scene
+
+# ---
+# EOF
